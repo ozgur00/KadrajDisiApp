@@ -14,6 +14,10 @@
         <item name="android:textSize">@dimen/small_text</item>
     </style>
 
+    <style name="TextView.Detail">
+        <item name="android:textSize">@dimen/detail_text</item>
+    </style>
+
     <style name="TextView.Medium">
         <item name="android:textSize">@dimen/medium_text</item>
     </style>
@@ -24,5 +28,9 @@
 
     <style name="TextView.Large">
         <item name="android:textSize">@dimen/large_text</item>
+    </style>
+
+    <style name="TextView.Large.Bold">
+        <item name="android:textStyle">bold</item>
     </style>
 </resources>

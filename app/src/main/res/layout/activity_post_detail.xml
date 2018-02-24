@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ozgur.kadrajdisi.pages.PostDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/postdetail_textview_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextView.Large.Bold"
+            android:layout_marginBottom="@dimen/margin_bottom"/>
+
+        <ImageView
+            android:id="@+id/postdetail_imageview_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/thumbnail_height"
+            android:layout_marginBottom="@dimen/margin_bottom"/>
+
+        <TextView
+            android:id="@+id/postdetail_textview_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextView.Small"
+            android:layout_marginBottom="@dimen/margin_bottom"/>
+
+        <TextView
+            android:id="@+id/postdetail_textview_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextView.Detail"
+            android:padding="@dimen/content_padding"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

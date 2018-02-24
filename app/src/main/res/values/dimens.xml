@@ -3,7 +3,9 @@
     <dimen name="thumbnail_height">200dp</dimen>
     <dimen name="recycler_item_margin">5dp</dimen>
     <dimen name="small_text">10sp</dimen>
+    <dimen name="detail_text">15sp</dimen>
     <dimen name="medium_text">20sp</dimen>
     <dimen name="large_text">30sp</dimen>
-
+    <dimen name="margin_bottom">5dp</dimen>
+    <dimen name="content_padding">2dp</dimen>
 </resources>

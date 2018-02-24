@@ -2,8 +2,10 @@ package com.example.ozgur.kadrajdisi;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.ozgur.kadrajdisi.pages.PostDetailActivity;
 import com.prof.rssparser.Article;
 
 import java.util.ArrayList;
@@ -29,7 +31,12 @@ public class PostRecyclerAdapter extends RecyclerView.Adapter<PostViewHolder> {
     public void onBindViewHolder(PostViewHolder holder, int position) {
         final Article post = posts.get(position);
         holder.bind(post);
-
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                view.getContext().startActivity(PostDetailActivity.newIntent(view.getContext(), post));
+            }
+        });
     }
 
     @Override
