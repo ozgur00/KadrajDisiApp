@@ -8,4 +8,21 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="TextView" parent="android:Widget.TextView" />
+
+    <style name="TextView.Small">
+        <item name="android:textSize">@dimen/small_text</item>
+    </style>
+
+    <style name="TextView.Medium">
+        <item name="android:textSize">@dimen/medium_text</item>
+    </style>
+
+    <style name="TextView.Medium.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextView.Large">
+        <item name="android:textSize">@dimen/large_text</item>
+    </style>
 </resources>
