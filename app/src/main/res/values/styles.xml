@@ -8,7 +8,9 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="TextView" parent="android:Widget.TextView" />
+    <style name="TextView" parent="android:Widget.TextView" >
+        <item name="fontPath">@string/font_name</item>
+    </style>
 
     <style name="TextView.Small">
         <item name="android:textSize">@dimen/small_text</item>
